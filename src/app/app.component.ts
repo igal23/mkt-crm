@@ -4,9 +4,8 @@ import { User } from './models/user';
 import { AuthenticationService } from './services';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   currentUser: User;
