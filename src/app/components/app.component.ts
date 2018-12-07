@@ -1,8 +1,8 @@
 ﻿import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { User } from '@app/models/user';
+import { AuthenticationService } from '@app/services';
 
-import { AuthenticationService } from './_services';
-import { User } from './_models';
 
 @Component({ selector: 'app', templateUrl: 'app.component.html' })
 export class AppComponent {
